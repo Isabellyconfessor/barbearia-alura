@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* cabecalho */
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0px;
+}
+
+.cabecalho {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
+/* principal */
+main {
+    width: 940px;
+	margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.horario {
+	margin-top: 10px;
+}
+.select-horarios {
+	width: 15%;
+	height: 25px;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: orange;
+	padding: 18px 0;
+	border: none;
+	border-radius: 08px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background-color: darkorange;
+	transform: scale(1.2);
+}
+
+/* rodapé */
+footer {
+	text-align: center;
+	background: url("imagens/background.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
