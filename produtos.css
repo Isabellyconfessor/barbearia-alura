@@ -86,6 +86,23 @@ nav a:hover {
 }
 
 /* responsividade */
+@media screen and (max-width: 480px) {
+	.cabecalho {
+		width: auto;
+        background-color: 100% ;
+	}
+	h1 {
+		text-align: center;
+	}
+	nav {
+		position: static;
+		text-align: center;
+    }
+    .produtos li {
+        display: block;
+        margin: 0 0 15px 15px;
+    }
+}
 
 /* rodapé */
 footer {
